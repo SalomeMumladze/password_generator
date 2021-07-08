@@ -1,0 +1,77 @@
+import { makeStyles } from "@material-ui/core/styles";
+const useStyles = makeStyles((theme) => ({
+  container: {
+    background: "rgba(10, 15, 47)",
+    borderRadius: "10px",
+    padding: "15px",
+    margin: "0px 20px",
+    width: "500px",
+    fontFamily: "Poppins, sans-serif",
+    boxShadow: "1px 0px 10px 0px rgb(0 0 0 / 70%)",
+  },
+  flex: {
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  title: {
+    fontSize: "30px",
+    fontWeight: 500,
+    color: "white",
+    textTransform: "capitalize",
+    fontFamily: "Poppins, sans-serif",
+  },
+  genform: {
+    background: "rgba(30, 34, 63)",
+    borderRadius: "10px",
+    height: "55px",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "space-between",
+    margin: "10px 0px",
+  },
+  icon: {
+    color: "white",
+    fontSize: 20,
+  },
+  sub: {
+    color: "white",
+    fontSize: 14,
+    fontWeight: 500,
+    padding: "6px 8px",
+    fontFamily: "Poppins, sans-serif",
+  },
+  subsetting: {
+    color: "white",
+    fontSize: 18,
+    fontWeight: 400,
+    padding: "6px 13px",
+    textTransform: "capitalize",
+    fontFamily: "Poppins, sans-serif",
+  },
+  txt: {
+    fontSize: "13px",
+    fontWeight: 700,
+    color: "rgba(92,96,123)",
+    textTransform: "uppercase",
+    margin: "0px 10px",
+    fontFamily: "Poppins, sans-serif",
+  },
+  root: {
+    margin: 0,
+  },
+  button: {
+    textTransform: "uppercase",
+    height: "55px",
+    color: "white",
+    fontWeight: 800,
+    fontSize: 16,
+    textAlign: "center",
+    width: "100%",
+    borderRadius: "10px",
+    backgroundImage: " linear-gradient(600deg, #7051a1, #6b7cd8)",
+    marginTop: 20,
+    fontFamily: "Poppins, sans-serif",
+  },
+}));
+export { useStyles };

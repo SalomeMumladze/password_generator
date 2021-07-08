@@ -1,0 +1,8 @@
+.App {
+  height: 100vh;
+  background: rgba(74, 155, 247);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
