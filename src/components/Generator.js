@@ -1,10 +1,5 @@
 import React, { useState } from "react";
-import {
-  Typography,
-  Container,
-  Grid,
-  Button,
-} from "@material-ui/core";
+import { Typography, Container, Grid, Button } from "@material-ui/core";
 import { useStyles } from "./JSS";
 import {
   numbers,
@@ -93,7 +88,10 @@ const Generator = () => {
           </Button>
         </div>
         <div>
-          <Typography className={classes.txt}>settings</Typography>
+          <div>
+            <Typography className={classes.txt}>length 10</Typography>
+            <Typography className={classes.txt}>settings</Typography>
+          </div>
         </div>
         <GeneratorForm
           title="include uppercase"
@@ -107,7 +105,7 @@ const Generator = () => {
           onChange={handleChange}
           name="checkedLower"
         />
-         <GeneratorForm
+        <GeneratorForm
           title="include numbers"
           case={state.checkedNumber}
           onChange={handleChange}
